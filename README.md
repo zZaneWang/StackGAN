@@ -1,9 +1,4 @@
 # StackGAN
-- [Pytorch implementation](https://github.com/hanzhanggit/StackGAN-Pytorch)
-
-- [Inception score evaluation](https://github.com/hanzhanggit/StackGAN-inception-model)
-
-- [StackGAN-v2-pytorch](https://github.com/hanzhanggit/StackGAN-v2)
 
 Tensorflow implementation for reproducing main results in the paper [StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/pdf/1612.03242v1.pdf) by Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang,   Xiaolei Huang, Dimitris Metaxas.
 
@@ -13,8 +8,11 @@ Tensorflow implementation for reproducing main results in the paper [StackGAN: T
 ### Dependencies
 ###
 update environment variable to[ python3.5/3.6+scipy1.2.1+pytorch+tensor 1.7.1 ]
+
 %但是scipy1.2.1在现在的主流python3中最多只能支持到python3.7%
+
 %而pytorch的自动安装命令也不能支持python2.7%
+
 %所以最好使用的是python3.7+scipy1.2.1+pytorch%
 ####
 
