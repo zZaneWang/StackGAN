@@ -11,9 +11,12 @@ Tensorflow implementation for reproducing main results in the paper [StackGAN: T
 
 
 ### Dependencies
-python 2.7
-
-[TensorFlow 0.12](https://www.tensorflow.org/get_started/os_setup)
+###
+update environment variable to[ python3.5/3.6+scipy1.2.1+pytorch+tensor 1.7.1 ]
+%但是scipy1.2.1在现在的主流python3中最多只能支持到python3.7%
+%而pytorch的自动安装命令也不能支持python2.7%
+%所以最好使用的是python3.7+scipy1.2.1+pytorch%
+####
 
 [Optional] [Torch](http://torch.ch/docs/getting-started.html#_) is needed, if use the pre-trained char-CNN-RNN text encoder.
 
